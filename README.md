@@ -2,7 +2,7 @@
 
 # nmap
 
-nmap 1.2.3.4 -sV
+nmap -A
 
 # set hosts
 
