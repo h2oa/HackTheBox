@@ -20,3 +20,4 @@ brute force hash có dạng số theo sau:
 
 - login page: brute force, default account (tùy công nghệ)
 - input: SSTI, command injection
+- check `/var/mail` lấy thông tin mail nếu có
