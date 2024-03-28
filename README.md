@@ -87,3 +87,4 @@ python -m http.server 80
 - vào sqldatase
 - `sudo -l` check xem user hiện tại thực hiện được gì với quyền root (search CVE với bất kỳ gì hiện ra trước)
 - Thử cả `sudo su` và `su`
+- lấy được 1 password thử với tất cả user ssh
