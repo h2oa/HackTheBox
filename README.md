@@ -32,6 +32,16 @@ ffuf -c -ic -w /usr/share/wordlists/dirb/big.txt -u http://devvortex.htb  -H "HO
 echo bHM= |base64 -d|bash
 ```
 
+- Stabilizing the shell:
+
+```
+script /dev/null -c /bin/bash
+CTRL + Z
+stty raw -echo; fg
+Then press Enter twice, and then enter:
+export TERM=xterm
+```
+
 # Kinh nghiệm
 
 - login page: brute force, default account (tùy công nghệ)
