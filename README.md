@@ -64,4 +64,4 @@ export TERM=xterm
 - check `/var/mail` lấy thông tin mail nếu có
 - fuzz subdomain
 - vào sqldatase
-- `sudo -l` check xem user hiện tại thực hiện được gì với quyền root
+- `sudo -l` check xem user hiện tại thực hiện được gì với quyền root (search CVE với bất kỳ gì hiện ra trước)
