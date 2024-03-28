@@ -2,7 +2,10 @@
 
 # nmap
 
-nmap -sV -A
+```
+nmap -A
+nmap -A -p-
+```
 
 # set hosts
 
