@@ -62,6 +62,6 @@ export TERM=xterm
 - login page: brute force, default account (tùy công nghệ)
 - input: SSTI, command injection
 - check `/var/mail` lấy thông tin mail nếu có
-- fuzz subdomain
+- fuzz subdomain, directory (`dirb <domain>`), path (`ffuf`)
 - vào sqldatase
 - `sudo -l` check xem user hiện tại thực hiện được gì với quyền root (search CVE với bất kỳ gì hiện ra trước)
