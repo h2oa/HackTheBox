@@ -31,6 +31,13 @@ hashcat -a 0 -m 3200 logan.txt /usr/share/wordlists/rockyou.txt
 john --format=bcrypt --wordlist=$wordlists/passwords/rockyou.txt hash.txt
 ```
 
+- `$SHA$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I`
+- SHA, $salt:$pass, salt là chữ số ($d), dùng cyberchef đổi sang format hex để decrypt:
+![image](https://github.com/h2oa/HackTheBox/assets/114990730/79fa4fc2-4317-4575-89bb-cda7a30e106a)
+```
+hashcat -a 0 -m 120 "b8fd3f41a541a435857a8f3e751cc3a91c174362:d" /usr/share/wordlists/rockyou.txt
+```
+
 # ffuf
 
 ```
