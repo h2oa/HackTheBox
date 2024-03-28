@@ -13,8 +13,23 @@ linux: /etc/hosts
 
 `hashid hash.txt` để detect loại hash, xong dùng `hashcat`
 
-brute force hash có dạng số theo sau:
-`hashcat -a 3 -m 1400 hash.txt susan_nasus_?d?d?d?d?d?d?d?d?d`
+- brute force theo định dạng:
+
+```
+hashcat -a 3 -m 1400 hash.txt susan_nasus_?d?d?d?d?d?d?d?d?d
+```
+
+- brute force theo wordlist:
+
+```
+hashcat -a 0 -m 3200 logan.txt /usr/share/wordlists/rockyou.txt
+```
+
+- john:
+
+```
+john --format=bcrypt --wordlist=$wordlists/passwords/rockyou.txt hash.txt
+```
 
 # ffuf
 
