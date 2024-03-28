@@ -75,3 +75,4 @@ export TERM=xterm
 - fuzz subdomain, directory (`dirb <domain>`), path (`ffuf`)
 - vào sqldatase
 - `sudo -l` check xem user hiện tại thực hiện được gì với quyền root (search CVE với bất kỳ gì hiện ra trước)
+- Thử cả `sudo su` và `su`
